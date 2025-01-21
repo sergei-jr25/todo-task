@@ -16,7 +16,7 @@ export function buildBabelLoader({ mode }: IBuildOptions) {
 					[
 						'@babel/preset-react',
 						{
-							runtime: isDev ? 'automatic' : 'classic',
+							runtime: 'automatic',
 						},
 					],
 				],
